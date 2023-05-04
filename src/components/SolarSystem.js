@@ -4,7 +4,7 @@ function SolarSystem() {
   return (
     <div>
       <div data-testid="solar-system" />
-      <Title headline="Planetas" />
+      <Title />
     </div>
 
   );
