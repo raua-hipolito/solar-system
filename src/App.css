@@ -1,3 +1,22 @@
-.App {
+body {
+  background-color: aqua;
+  display: flex;
+  display: block;
+  justify-content: center;
+}
+
+.hed {
+  display: flex;
+  display: block;
+  flex-direction: column;
+  flex-grow: 0;
   text-align: center;
+  background-color: blueviolet;
+  height: 100px;
+  width: 300px;
+
+}
+
+.planets {
+  background-color: red;
 }

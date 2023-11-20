@@ -1,8 +1,11 @@
 function Header() {
   return (
-    <header className="header">
-      <h1>Sistema Solar</h1>
-    </header>
+    <div className="hed">
+      <header className="header">
+        <h1>Sistema Solar</h1>
+      </header>
+    </div>
+
   );
 }
 
