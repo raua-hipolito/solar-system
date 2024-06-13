@@ -5,7 +5,7 @@ class Header extends React.Component {
     return (
       <header>
         <h1>
-          Sistema Solar
+          Header
         </h1>
       </header>
     );
