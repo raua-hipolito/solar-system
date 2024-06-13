@@ -11,7 +11,6 @@ class SolarSystem extends React.Component {
           Sistema Solar
         </h1>
         <Title headline="Planetas" />
-
         <div>
           {planets.map((planet) => (
             <PlanetCard
