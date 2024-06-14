@@ -6,6 +6,8 @@ class Header extends React.Component {
       <header className="header">
         <h1 className="sistemaSolar">
           Sistema Solar
+          <br />
+          <span className="sistemaSolar">Planetas</span>
         </h1>
       </header>
     );

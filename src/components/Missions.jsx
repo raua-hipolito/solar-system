@@ -1,10 +1,12 @@
 import React from 'react';
 import missions from '../data/missions';
 import MissionCard from './MissionCard';
+import '../styles/Mission.css';
 
 function Missions() {
   return (
-    <div>
+    <div className="missao">
+      <h2 className="h2">Missões</h2>
       {missions.map((mission) => (
         <MissionCard
           key={ mission.name }

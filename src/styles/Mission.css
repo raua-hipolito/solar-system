@@ -1,0 +1,53 @@
+/* Container principal */
+.containerMis {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que os itens se ajustem e se movam para a próxima linha conforme necessário */
+    justify-content: center; /* Centralizar os itens */
+    gap: 16px; /* Espaço entre os elementos */
+}
+
+/* Estilo dos itens de missão */
+.missao1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espaço entre os textos dentro do item */
+    padding: 20px;
+    border-radius: 32px; /* Bordas arredondadas */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para dar destaque */
+    transition: all 0.3s ease; /* Suavizar transições */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borda sutil */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* Sombra para dar profundidade */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    width: calc(33.333% - 32px); /* Calcular a largura com base em 3 itens por linha e o gap */
+    margin: 8px; /* Margem ao redor dos itens */
+}
+
+/* Estilo do título da missão */
+.h2 {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-align: center; /* Centralizar o texto */
+    color: aliceblue;
+
+}
+
+/* Estilo responsivo para dispositivos menores */
+@media (max-width: 1024px) {
+    .missao1 {
+        width: calc(50% - 32px); /* Ajustar para 2 itens por linha */
+    }
+}
+
+@media (max-width: 768px) {
+    .missao1 {
+        width: calc(50% - 16px); /* Ajustar para 2 itens por linha */
+    }
+}
+
+@media (max-width: 480px) {
+    .missao1 {
+        width: calc(100% - 16px); /* Um item por linha em telas muito pequenas */
+    }
+}
