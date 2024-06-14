@@ -1,0 +1,47 @@
+
+
+
+.planetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    gap: 16px;
+    flex-wrap: wrap; /* Adicionado para permitir que os elementos se empilhem em telas menores */
+}
+
+.planetImage {
+    width: 130px;
+    height: 130px;
+    border-radius: 70%;
+    margin: 1 10px 0 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease; /* Adicionado para uma transição suave nas mudanças */
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    .planetImage {
+        width: 100px;
+        height: 100px;
+        padding: 15px;
+    }
+
+    .planetas {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .planetImage {
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .planetas {
+        gap: 5px;
+    }
+}
