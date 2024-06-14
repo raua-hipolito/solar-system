@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.background {
+  background-image: url(./images/background.png);
+}
+
+.header {
+  /* centraliza  */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.header h1 {
+  color: white;
+  font-size: 2.5em;
+}
+
+
+
+.sistemaSolar {
+  color: aliceblue;
+  width: 451.85px;
+  height: 50.63px;
+  top: 142.98px;
+  left: 412.69px;
+  gap: 0px;
+  opacity: 0px;
+}

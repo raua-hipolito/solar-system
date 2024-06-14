@@ -2,16 +2,14 @@ import React from 'react';
 import Title from './Title';
 import planets from '../data/planets';
 import PlanetCard from './PlanetCard';
+import '../styles/SolarSystem.css';
 
 class SolarSystem extends React.Component {
   render() {
     return (
       <div>
-        <h1>
-          Sistema Solar
-        </h1>
         <Title headline="Planetas" />
-        <div>
+        <div className="planetas">
           {planets.map((planet) => (
             <PlanetCard
               key={ planet.name }
